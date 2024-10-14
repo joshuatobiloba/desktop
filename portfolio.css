@@ -1,0 +1,222 @@
+.porfolio_nav {
+  background-color: var(--white);
+}
+header {
+  padding: 1.3rem 7rem;
+  position: relative;
+  z-index: 50;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+#logo {
+  display: flex;
+}
+.nav_links-container {
+  display: flex;
+  gap: 0 54.3px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  translate: -10px;
+}
+.nav-links {
+  color: var(--black);
+  font-size: 1rem;
+  font-family: var(--quattrocento);
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+.nav-links:hover {
+  font-weight: 800;
+  border-bottom: 1px solid var(--orange);
+  transform: scale(1);
+  transition: all;
+  display: flex;
+}
+#nav_btn-a {
+  font-family: var(--quattrocento);
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  background-color: var(--dark);
+  outline: none;
+  border-radius: 3rem;
+  border: none;
+}
+#nav_btn-a:hover {
+  color: var(--black);
+  background: var(--orange);
+  font-family: var(Mulish);
+}
+#nav_btn {
+  outline: none;
+  border: none;
+  color: var(--white);
+  font-size: 0.8em;
+  background: inherit;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+#nav_btn:hover {
+  color: var(--black);
+}
+
+/* Portfolio Content Display */
+.portfolio_display {
+  padding: 4rem 7rem 0 7rem;
+}
+.product_h1 {
+  color: var(--black);
+  font-family: var(--mulish);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.Product_video {
+  margin-top: 3rem;
+  background: #d9d9d9;
+  width: 1073px;
+  height: 608px;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.Product_video:hover {
+  opacity: 90%;
+}
+
+.product_after {
+  position: absolute;
+  cursor: pointer;
+}
+
+.Product_video button {
+  color: #fff;
+  font-family: var(--quattrocento);
+  font-weight: 700;
+  align-items: center;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: none;
+  cursor: pointer;
+  padding: 0.8rem 1.3rem;
+  font-size: 18px;
+  position: absolute;
+  bottom: 59px;
+  left: 36px;
+}
+.Product_video button:hover {
+  background: var(--orange);
+  color: var(--dark);
+  outline: none;
+  border: none;
+}
+
+.next-btn {
+  width: 150.654px;
+  height: 50px;
+  flex-shrink: 0;
+  cursor: pointer;
+  position: absolute;
+  bottom: 59px;
+  right: 36px;
+}
+/* Footer */
+footer {
+  padding: 1rem 8rem 1rem 8rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 4rem;
+}
+.footer__container div {
+  flex: 1;
+  flex-wrap: wrap;
+}
+.footer__container div:nth-child(1) {
+  flex: 1.8;
+}
+
+.footer__logo {
+  margin-bottom: 2rem;
+}
+
+.footer__impression {
+  color: var(--dark);
+  font-family: var(--mulish);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__company_images {
+  margin: 2rem 0;
+}
+.footer__company_images img {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.footer__mail {
+  color: var(--black);
+  font-family: var(--quattrocento);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer__links {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.footer__links h1 {
+  color: var(--dark);
+  font-family: var(--quattrocento);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.footer__links a {
+  color: var(--dark);
+  font-family: var(--mulish);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 191.5%; /* 61.28px */
+  margin-left: 0.5rem;
+}
+.footer__links a:hover {
+  color: var(--orange);
+}
+
+.WWd {
+  margin-right: 3rem;
+}
+.copyright {
+  color: var(--black);
+  font-family: var(--quattrocento);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
